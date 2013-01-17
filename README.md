@@ -2,6 +2,8 @@
 ===========
 微信公众账号+SAE（Django/web.py）+有道翻译  自动翻译助手。
 
+Demo：http://fengyoujing.sinaapp.com/
+
 参考 http://blog.csdn.net/liushuaikobe/article/details/8453716
 
 包含Django和web.py两个版本，选择其一即可。
