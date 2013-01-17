@@ -6,9 +6,9 @@
 
 包含Django和web.py两个版本，选择其一即可。
 
-1、到SAE申请账号：http://sae.sina.com.cn/
+1、申请SAE账号：http://sae.sina.com.cn/
 
-2、到有道申请API key：http://fanyi.youdao.com/openapi?path=data-mode
+2、申请有道API key：http://fanyi.youdao.com/openapi?path=data-mode
 
 3、申请微信公众账号：http://mp.weixin.qq.com/
 
