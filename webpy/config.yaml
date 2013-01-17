@@ -1,4 +1,4 @@
-name: fengyoujing
+name: appname
 version: 2
 libraries:
 - name: lxml

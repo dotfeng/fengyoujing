@@ -8,11 +8,11 @@ from django.utils.encoding import smart_str, smart_unicode
 import xml.etree.ElementTree as ET
 import urllib,urllib2,time,hashlib
 import datetime
-
-TOKEN = "fengyoujing"
-
-YOUDAO_KEY = 696996954
-YOUDAO_KEY_FROM = "Feng123"
+#你的微信token，http://mp.weixin.qq.com/
+TOKEN = "TOKEN"
+#http://fanyi.youdao.com/openapi?path=data-mode
+YOUDAO_KEY = 你的有道翻译key
+YOUDAO_KEY_FROM = "YOUDAO_KEY_FROM"
 YOUDAO_DOC_TYPE = "xml"
 
 def index(request):

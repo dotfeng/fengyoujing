@@ -7,7 +7,7 @@ import web
 from lxml import etree
 
 #TOKEN 到微信公众平台自己设置
-config={"TOKEN":'fengyoujing',
+config={"TOKEN":'TOKEN',
     "WEIXIN": 'weixin'}
         
 urls = (
@@ -17,7 +17,7 @@ urls = (
 app_root = os.path.dirname(__file__)
 
 class weixin:
-    TOKEN = "fengyoujing"
+    TOKEN = "TOKEN"
 
     
     #GET方法，主要用来注册url
@@ -61,8 +61,9 @@ class weixin:
 
         #print data
         #print recv
-        YOUDAO_KEY = 696996954
-        YOUDAO_KEY_FROM = "Feng123"
+        #http://fanyi.youdao.com/openapi?path=data-mode
+        YOUDAO_KEY = 你的有道翻译key
+        YOUDAO_KEY_FROM = "YOUDAO_KEY_FROM"
         YOUDAO_DOC_TYPE = "xml"
         queryStr = recv['Content']
 
